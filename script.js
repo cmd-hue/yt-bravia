@@ -16,8 +16,7 @@ function updateVideoBox(contentType) {
   }
 }
 
-<script>
-  window.onload = function () {
+window.onload = function () {
     const menuItems = document.querySelectorAll('.menu li');
     const videoBox = document.querySelector('.video-box');
     let selectedIndex = 0;
@@ -59,4 +58,3 @@ function updateVideoBox(contentType) {
     updateSelection(selectedIndex);
     updateVideoBox('none');
   };
-</script>
